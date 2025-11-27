@@ -1,0 +1,15 @@
+# --- Archivos ejecutables y binarios (Lo que NO quieres subir) ---
+*.exe
+*.out
+*.app
+*.o
+*.obj
+
+# --- Archivos de sistema y editores ---
+.vscode/
+.DS_Store
+Thumbs.db
+
+# --- Carpetas de salida (si las usas) ---
+/bin/
+/build/
