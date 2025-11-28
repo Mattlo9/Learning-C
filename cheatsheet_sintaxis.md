@@ -1,7 +1,6 @@
 
 ### Format Specifiers Table
 
-Here is the information consolidated from the image:
 
 | Specifier | Description | Output Example |
 | :--- | :--- | :--- |
