@@ -1,0 +1,36 @@
+# Chapter 4 -Expression
+
+- One of C's distinguishing characteristics is its emphasis on expressions rather than statements.
+- Expression: formulas that show how to compute a value.
+    -Variables: Represents a value to be computed as the program runs-    -Constants: Represents a value that doesn't change. 
+
+- Operators: Symbols that perform specific operations on values or variables.
+- Operands: The values or expressions on which the operator act.
+
+## 4.1 Arithmetic Operators
+
+- Arithmetic Operators: Perators that performs addition, subtraction, multiplication and division.
+
+- Unary: Operators that only require **one** operand.
+- Binary: Operators the require **two** operands.
+    - Additive:
+        - Addition `+`: Adds two values together. 
+        - Subtraction `-`: Subtracts two values from another. 
+    - Multiplicative:
+        - Multiplication `*`: Multiplies two values together.
+        - Division `/`:
+            - `int / int` "integer division" returns the *floored* value of the quotient.
+            - `float / int`: returns a `float`.
+        - Remainder (modulo) `%`: `i % j` returns the remainder of the quotient `i / j`.
+            - Requires both operands to be type `int`.
+
+- Implementation-defined Behavior: The C standard allows certain aspects of the language to vary between different compilers, architectures, or operating systems, but requires that the implementation document how it behaves.
+
+- Operator Precedence and Associativity: Rules that determine the order in which operators in an expression are evaluated.
+    - Precedence: Defines which operators are evaluated first.
+    - Associativity: Defines the order of evaluation when operators of the same precedence appear together (for example, left-to-right or right-to-left).
+        - Left Associative: Operators that group from left-to-right.
+            - Binary Arithmetic Operators (`*`, `/`, `%`, `+`, and `-`).
+        - Right Associative: Operators that group from right-to-left.
+            - Unary Arithmetic Operators (`+` and `-`).
+            
