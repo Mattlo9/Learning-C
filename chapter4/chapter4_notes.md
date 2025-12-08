@@ -34,3 +34,42 @@
         - Right Associative: Operators that group from right-to-left.
             - Unary Arithmetic Operators (`+` and `-`).
             
+- Lvalues: Represent an object stored in computer memory, not a constant or the result of a computation.
+    -Varialbes are Lvalues
+
+## 4.3 Increment and Decrement Operators
+
+- Incrementing: Adding a value of 1.
+- Decrementing: Subtracting a value of 1.
+
+- Ways to Increment/Decrement:
+    1. Basic Arithmetic
+    ```c
+        var = var + 1; // increment
+        var = var - 1; // decrement
+    ```
+    2.  Compound Assignment
+    ```c
+        var += 1; // increment
+        var -= 1; // decrement
+    ```
+    3.  Increment/Decrement Operators
+    ```c
+        ++var;   // prefix increment
+        var++;   // postfix increment
+        --var;   // prefix decrement
+        var--;   // postfix decrement
+    ``` 
+    - Prefix and Postfix Operators (`++` and `--`)
+        - Prefix: The variable is modified before its value is used in an expression.
+            - Ex.
+            ```c
+                int x = 5;
+                int y = ++x;   // x becomes 6, y = 6
+            ```
+        - Postfix: The variable is modified after its current value is used in an expression.
+            - Ex.
+            ```c
+                int x = 5;
+                int y = x++;   // y = 5, then x becomes 6   
+            ```
